@@ -33,7 +33,6 @@ npm install
 3. Set up environment variables:
 Create a `.env` file in the root directory with the following variables:
 ```
-GOOGLE_APPLICATION_CREDENTIALS=path/to/your/credentials.json
 AI_STUDIO_API_KEY=<your google ai studio api key>
 ```
 
@@ -42,7 +41,7 @@ AI_STUDIO_API_KEY=<your google ai studio api key>
 - Create a new project
 - Enable the Google Calendar API
 - Create credentials (OAuth 2.0 Client ID)
-- Download the credentials and save them as `credentials.json`
+- Download the credentials and save them as `credentials.json` at root
 
 ## Usage
 
