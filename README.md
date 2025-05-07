@@ -21,7 +21,7 @@ An intelligent calendar management assistant that helps you manage your Google C
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/calendar-ai-agent.git
+git clone https://github.com/hamzakhalidchouhdary/calendar-ai-agent.git
 cd calendar-ai-agent
 ```
 
