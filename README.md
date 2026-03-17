@@ -1,93 +1,108 @@
-# Calendar AI Agent
+# 📅 GenAI Calendar Assistant (Natural Language → Scheduling)
 
-An intelligent calendar management assistant that helps you manage your Google Calendar using natural language commands. This AI-powered tool allows you to interact with your calendar in a conversational way, making calendar management more intuitive and efficient.
+Manage your calendar using plain English — no clicks, no forms.
 
-## Features
+> “Book lunch with John next Tuesday at 1pm” → Event created instantly.
 
-- 🤖 Natural language processing for calendar commands
-- 📅 Create, read, update, and delete calendar events
-- ⏰ Schedule appointments and meetings
-- 🔍 View and search calendar events
-- 🎯 Smart time slot management
-- 🔐 Secure Google Calendar integration
+## 🚀 Why This Matters
 
-## Prerequisites
+Calendar tools are powerful — but inefficient.
 
-- Node.js (v14 or higher)
-- Google Cloud Platform account
-- Google Calendar API credentials
+Users waste time:
 
-## Installation
+* Navigating forms
+* Switching between apps
+* Manually managing schedules
 
-1. Clone the repository:
-```bash
+This AI assistant removes friction by enabling:
+👉 **Conversational scheduling powered by LLMs**
+
+
+## ⚡ Key Features
+
+* 🤖 **Natural Language → Calendar Actions**
+* 📅 Create, update, delete events via conversation
+* 🔍 Smart event search & retrieval
+* ⏰ Intelligent time slot handling
+* 🔐 Secure Google Calendar integration
+
+## 🎥 Demo
+
+{TODO}
+
+---
+
+## 🛠 Tech Stack
+
+* **Backend:** Node.js, TypeScript
+* **AI:** Google Gemini (LLMs, Prompt Engineering)
+* **Integration:** Google Calendar API
+* **Architecture:** Modular AI assistant + tools system
+
+
+## 🧠 How It Works
+
+1. User inputs natural language command
+2. LLM interprets intent (date, time, participants)
+3. System maps intent to calendar action
+4. Google Calendar API executes the action
+5. Confirmation is returned to the user
+
+## 💬 Example Commands
+
+```
+“Add a meeting with John tomorrow at 2pm for 1 hour”
+“Show my schedule for today”
+“Delete all events after 4pm”
+```
+
+## 🧱 Architecture
+
+* `aiAssistant/` → Handles LLM interaction
+* `tools/` → Executes structured calendar actions
+* `googleApi/` → Integrates with Google Calendar
+* `prompts/` → Controls AI behavior
+
+
+## 🚀 Getting Started
+
+```
 git clone https://github.com/hamzakhalidchouhdary/calendar-ai-agent.git
 cd calendar-ai-agent
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
-
-3. Set up environment variables:
-Create a `.env` file in the root directory with the following variables:
-```
-AI_STUDIO_API_KEY=<your google ai studio api key>
-```
-
-4. Set up Google Calendar API:
-- Go to the Google Cloud Console
-- Create a new project
-- Enable the Google Calendar API
-- Create credentials (OAuth 2.0 Client ID)
-- Download the credentials and save them as `credentials.json` at root
-
-## Usage
-
-Start the application:
-```bash
 node index.js
 ```
 
-### Example Commands
-
-- "Add a meeting with John tomorrow at 2pm for 1 hour"
-- "Schedule a doctor's appointment for next Monday at 10am"
-- "Show my schedule for today"
-- "Delete all events after 4pm on 10th may 2025"
-- "Mark my calendar as busy from 8pm to 8:30pm for dinner today"
-
-## Project Structure
+Add `.env`:
 
 ```
-calendar-ai-agent/
-├── aiAssistant/     # AI assistant implementation
-├── googleApi/       # Google Calendar API integration
-├── prompts/         # AI prompt templates
-├── tools/          # Agent tools
-├── utilities/      # Helper functions
-├── index.js        # Main application entry
-└── package.json    # Project dependencies
+AI_STUDIO_API_KEY=your_api_key
 ```
 
-## Dependencies
+---
 
-- @google-cloud/local-auth: For Google authentication
-- @google/generative-ai: For AI capabilities
-- @googleapis/calendar: Google Calendar API integration
-- googleapis: Google APIs client
-- moment: Date/time manipulation
-- readline-sync: Command-line interface
+## 🌍 Real-World Use Cases
 
-## Contributing
+* Personal productivity assistants
+* AI-powered scheduling tools
+* SaaS calendar automation features
+* Voice assistants / chat interfaces
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
-## License
+## 📌 Built With a Startup Mindset
 
-This project is licensed under the ISC License.
+* Fast to use
+* Reduces friction
+* Designed for real-world workflows
+* Easily extendable
 
-## Support
+## 🤝 Open to Opportunities
 
-For support, please open an issue in the GitHub repository.
+I’m building AI-powered productivity tools and open to:
+
+* Interested in AI-driven product roles
+* Open to global opportunities
+
+Let’s connect 👇
+[LinkedIn](https://linkedin.com/in/hamzakhalidchouhdary)
