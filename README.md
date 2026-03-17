@@ -28,7 +28,7 @@ This AI assistant removes friction by enabling:
 
 ## 🎥 Demo
 
-{TODO}
+[Watch me](https://www.loom.com/share/dd521e7d976a49d2ae885ef6cc198dbe) for a quick tour
 
 ---
 
